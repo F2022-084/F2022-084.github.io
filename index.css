@@ -28,14 +28,14 @@ body {
 #main_box h1 {
 	font-family: Fredoka-One-Regular;
 	color: orange;
-	font-size: 3em;
+	font-size: 2.5em;
 	letter-spacing: 0.1em;
 	z-index: 1;
 	transition: 2s ease-in-out;
 }
 
 #main_box:hover { width: 92%; height: 92%; }
-#main_box:hover h1 { rotate: 10deg; transform: translatey(700%); }
+#main_box:hover h1 { rotate: 10deg; transform: translatey(60vh); }
 #main_box:hover #burger_box { rotate: 10deg; }
 #main_box:hover #bun_top div { rotate: 10deg; }
 #main_box:hover #tomato { transform: translateX(15%); }
